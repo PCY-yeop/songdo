@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>송도역 한신더휴 프레스턴 | 방문예약</title>
+  <link rel="stylesheet" href="css/importA.css">
+  <script defer src="js/scripting1.js"></script>
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!-- HTML <head> 안에 넣어주세요 -->
+  <meta property="og:title" content="송도역 한신더휴">
+  <meta property="og:description" content="지금 방문 예약하고 혜택을 확인하세요!">
+  <meta property="og:image" content="https://xn--9m1b8h608argbt7glr4aq4c.kr/images/main_img.png">
+  <meta property="og:image:secure_url" content="https://xn--9m1b8h608argbt7glr4aq4c.kr/images/main_img.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://xn--9m1b8h608argbt7glr4aq4c.kr">
+  <meta property="og:type" content="website">
+  <meta name="naver-site-verification" content="83507e75fdd9a06f6740d26812bcfe3d80ddc072" />
+  <!-- 태그 -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P594MGJ5');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '597453889452904');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=597453889452904&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body>
+
+  <header id="header">
+    <div class="header-inner">
+      <button class="menu-button" onclick="toggleSidePanel()">
+        <img src="images/menu_botton.png" alt="메뉴">
+      </button>
+  
+      <h1 class="logo">
+        <a href="#main" id="logoLink"><img src="images/log2.png" alt="THE MARK ONE"></a>
+      </h1>
+  
+      <a class="call-button" href="tel:1833-8964">
+        <img src="images/call_.png" alt="전화걸기">
+      </a>
+      <div class="pc-only">
+      <p class="phone_number">1833-8964</p>
+      </div>  
+    </div>
+    
+    <!-- 하단 탭 메뉴 -->
+    <nav class="menu-tabs">
+      <a href="#" data-target="section1">사업안내</a>
+      <a href="#" data-target="section2">단지안내</a>
+      <a href="#" data-target="section3">타입안내</a>
+      <!-- <a href="#" data-target="section5">영상안내</a> -->
+    </nav>
+  </header>
+
+  <!-- 사이드 메뉴 (토글용) -->
+  <aside id="sidePanel" class="side-panel">
+    <button class="close-button" onclick="toggleSidePanel()">&#10005;</button>
+    <nav class="side-menu">
+      <a href="#" data-target="section1">사업안내</a>
+      <a href="#" data-target="section2">단지안내</a>
+      <a href="#" data-target="section3">타입안내</a>
+      <!-- <a href="#" data-target="section5">영상안내</a> -->
+    </nav>
+  </aside>
+    
+
+  <!-- 메뉴 사업단지 -->
+  <main class="content-wrapper">
+    <section id="section1" class="page-section">
+      <div class="section-title">
+        <h2>사업안내</h2>
+        <p class="sub">SUMMARY</p>
+        <div class="underline"></div>
+      </div>
+
+      <!-- 탭 버튼 -->
+      <div class="tab-wrapper">
+        <button class="tab-button active" data-tab="overview">사업개요</button>
+        <button class="tab-button" data-tab="company">브랜드</button>
+        <button class="tab-button" data-tab="location">입지환경</button>
+        <button class="tab-button" data-tab="premium">프리미엄</button>
+      </div>
+
+      <!-- 탭 콘텐츠 -->
+      <div class="tab-content active" id="overview">
+        <img src="images/apartment-info-specs.png" alt="사업개요 이미지" />
+      </div>
+      <div class="tab-content" id="company">
+        <img src="images/company.png" alt="입지환경 이미지" />
+      </div>
+      <div class="tab-content" id="location">
+        <img src="images/station_image.png" alt="입지환경 이미지" />
+      </div>
+      <div class="tab-content" id="premium">
+        <img src="/images/imgbox.png" alt="프리미엄 이미지" />
+      </div>
+    </section>
+    
+    <section id="section2" class="page-section">
+      <div class="section-title">
+        <h2>단지안내</h2>
+        <p class="sub">COMPLEX · INFO</p>
+        <div class="underline"></div>
+      </div>
+
+      <!-- 단지안내 탭 버튼 -->
+      <div class="tab-wrapper">
+        <button class="tab-button active" data-tab="layout">단지 배치도</button>
+        <button class="tab-button" data-tab="benefit">동호수표</button>
+        <button class="tab-button" data-tab="community">커뮤니티</button>
+        <button class="tab-button" data-tab="system">시스템</button>
+      </div>
+
+      <!-- 단지안내 탭 콘텐츠 -->
+      <div class="tab-content active" id="layout">
+        <img src="images/type_2img.png" alt="동호배치 이미지" />
+      </div>
+      <div class="tab-content" id="benefit">
+        <img src="images/type_img.png" alt="동호배치 이미지" />
+      </div>
+      <div class="tab-content" id="community">
+        <img src="images/community.png" alt="커뮤니티 이미지" />
+      </div>
+      <div class="tab-content" id="system">
+        <img src="images/system.png" alt="커뮤니티 이미지" />
+      </div>
+
+      </section>
+    
+    <section id="section3" class="page-section">
+      <div class="section-title">
+        <h2>타입안내</h2>
+        <p class="sub">UNIT</p>
+        <div class="underline"></div>
+      </div>
+      <!-- 타입안내 section 안에 넣기 -->
+    <div class="tab-wrapper">
+      <button class="tab-button active" data-tab="type-40">45타입</button>
+      <button class="tab-button" data-tab="type-59A">59A타입</button>
+      <button class="tab-button" data-tab="type-59B">59B타입</button>
+      <button class="tab-button" data-tab="interior">인테리어</button>
+    </div>
+
+    <div class="tab-content active" id="type-40">
+      <img src="images/floor/unit_40.png" alt="52㎡ 도면">
+    </div>
+    <div class="tab-content" id="type-59A">
+      <img src="images/floor/unit_59A.png" alt="59㎡A 도면">
+    </div>
+    <div class="tab-content" id="type-59B">
+      <img src="images/floor/unit_59B.png" alt="59㎡B 도면">
+    </div>
+    <div class="tab-content" id="interior">
+      <img src="images/interior_1.jpg" alt="인테리어">
+      <img src="images/interior_2.jpg" alt="인테리어">
+      <img src="images/interior_3.jpg" alt="인테리어">
+      <img src="images/interior_4.jpg" alt="인테리어">
+    </div>
+    </section>
+
+
+  </main>
+  
+
+
+
+
+  <!-- 메인인 -->
+  <section id="main-hero">
+    <div class="hero-text">
+      <div class="hero-text-bar">
+        <p class="sub-text hero-animate">프리미엄의 완벽한 밸런스를 누릴</p>
+        <h2 class="main-title hero-animate">송도역 한신더휴 프레스턴</h2>
+        <p class="info-text hero-animate">지하 2층 - 지상 29층&nbsp;&nbsp;총652세대</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!-- 프리미엄 -->
+  <section class="premium">
+    <img src="/images/imgbox.png" alt="혜택">
+  </section>
+  
+  <!-- 지도 -->
+  <div class="subway-section">
+    <img src="/images/station_image.png" alt="강조 텍스트 이미지">
+  </div>
+  
+
+  <!-- 입장권 페이지 -->
+  <div class="contact-banner">
+    <div class="contact-text">
+      <p class="brand-name contact-animate">송도역 한신더휴</p>
+      <p class="sub-title contact-animate">SPECIAL TOMORROW</p>
+      <p class="phone-number contact-animate">1833-8964</p>
+      <p class="tagline">입장권 빠른발급</p>
+      <p class="desc">전화했다 끊으면 문자로 입장권 전송</p>
+    </div>
+  </div>
+      
+  
+  <footer class="footer-center">
+    <p class="footer-title">고객 센터</p>
+    <p class="footer-sub">CALL CENTER</p>
+    <p class="footer-phone">1833-8964</p>
+    <p class="footer-desc">
+      항상 고객과의 소통을 위해 노력합니다. <br>
+      궁금하신 사항은 언제든지 문의해주셔도 됩니다.<br>
+      항상 고객의 입장에서 생각합니다.
+    </p>
+    <div class="footer-divider"></div>
+  </footer>
+  <!-- 사전접수 고정 버튼 -->
+  <!-- 오른쪽 하단 고정 이미지 버튼 -->
+  <!-- 오른쪽 하단 고정 버튼 -->
+  <a href="javascript:void(0);" class="floating-btn" onclick="goToReservationForm()">
+    <img src="images/GO_logo.png" alt="사전접수 GO 버튼">
+  </a>
+</body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P594MGJ5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</html>
