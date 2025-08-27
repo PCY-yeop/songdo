@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>송도역 한신더휴 프레스턴 | 방문예약</title>
+  <link rel="stylesheet" href="css/importA.css">
+  <script defer src="js/scripting1.js"></script>
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!-- HTML <head> 안에 넣어주세요 -->
+  <meta property="og:title" content="송도역 한신더휴">
+  <meta property="og:description" content="지금 방문 예약하고 혜택을 확인하세요!">
+  <meta property="og:image" content="https://xn--9m1b8h608argbt7glr4aq4c.kr/images/main_img.png">
+  <meta property="og:image:secure_url" content="https://xn--9m1b8h608argbt7glr4aq4c.kr/images/main_img.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://xn--9m1b8h608argbt7glr4aq4c.kr">
+  <meta property="og:type" content="website">
+  <meta name="naver-site-verification" content="83507e75fdd9a06f6740d26812bcfe3d80ddc072" />
+  <!-- 태그 -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P594MGJ5');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '597453889452904');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=597453889452904&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body>
+
+  <header id="header">
+    <div class="header-inner">
+      <button class="menu-button" onclick="toggleSidePanel()">
+        <img src="images/menu_botton.png" alt="메뉴">
+      </button>
+  
+      <h1 class="logo">
+        <a href="#main" id="logoLink"><img src="images/log2.png" alt="THE MARK ONE"></a>
+      </h1>
+  
+      <a class="call-button" href="tel:1833-8964">
+        <img src="images/call_.png" alt="전화걸기">
+      </a>
+      <div class="pc-only">
+      <p class="phone_number">1833-8964</p>
+      </div>  
+    </div>
+    
+    <!-- 하단 탭 메뉴 -->
+    <nav class="menu-tabs">
+      <a href="#" data-target="section1">사업안내</a>
+      <a href="#" data-target="section2">단지안내</a>
+      <a href="#" data-target="section3">타입안내</a>
+      <!-- <a href="#" data-target="section5">영상안내</a> -->
+    </nav>
+  </header>
+
+  <!-- 사이드 메뉴 (토글용) -->
+  <aside id="sidePanel" class="side-panel">
+    <button class="close-button" onclick="toggleSidePanel()">&#10005;</button>
+    <nav class="side-menu">
+      <a href="#" data-target="section1">사업안내</a>
+      <a href="#" data-target="section2">단지안내</a>
+      <a href="#" data-target="section3">타입안내</a>
+      <!-- <a href="#" data-target="section5">영상안내</a> -->
+    </nav>
+  </aside>
+    
+
+  <!-- 메뉴 사업단지 -->
+  <main class="content-wrapper">
+    <section id="section1" class="page-section">
+      <div class="section-title">
+        <h2>사업안내</h2>
+        <p class="sub">SUMMARY</p>
+        <div class="underline"></div>
+      </div>
+
+      <!-- 탭 버튼 -->
+      <div class="tab-wrapper">
+        <button class="tab-button active" data-tab="overview">사업개요</button>
+        <button class="tab-button" data-tab="company">브랜드</button>
+        <button class="tab-button" data-tab="location">입지환경</button>
+        <button class="tab-button" data-tab="premium">프리미엄</button>
+      </div>
+
+      <!-- 탭 콘텐츠 -->
+      <div class="tab-content active" id="overview">
+        <img src="images/apartment-info-specs.png" alt="사업개요 이미지" />
+      </div>
+      <div class="tab-content" id="company">
+        <img src="images/company.png" alt="입지환경 이미지" />
+      </div>
+      <div class="tab-content" id="location">
+        <img src="images/station_image.png" alt="입지환경 이미지" />
+      </div>
+      <div class="tab-content" id="premium">
+        <img src="/images/imgbox.png" alt="프리미엄 이미지" />
+      </div>
+    </section>
+    
+    <section id="section2" class="page-section">
+      <div class="section-title">
+        <h2>단지안내</h2>
+        <p class="sub">COMPLEX · INFO</p>
+        <div class="underline"></div>
+      </div>
+
+      <!-- 단지안내 탭 버튼 -->
+      <div class="tab-wrapper">
+        <button class="tab-button active" data-tab="layout">단지 배치도</button>
+        <button class="tab-button" data-tab="benefit">동호수표</button>
+        <button class="tab-button" data-tab="community">커뮤니티</button>
+        <button class="tab-button" data-tab="system">시스템</button>
+      </div>
+
+      <!-- 단지안내 탭 콘텐츠 -->
+      <div class="tab-content active" id="layout">
+        <img src="images/type_2img.png" alt="동호배치 이미지" />
+      </div>
+      <div class="tab-content" id="benefit">
+        <img src="images/type_img.png" alt="동호배치 이미지" />
+      </div>
+      <div class="tab-content" id="community">
+        <img src="images/community.png" alt="커뮤니티 이미지" />
+      </div>
+      <div class="tab-content" id="system">
+        <img src="images/system.png" alt="커뮤니티 이미지" />
+      </div>
+
+      </section>
+    
+    <section id="section3" class="page-section">
+      <div class="section-title">
+        <h2>타입안내</h2>
+        <p class="sub">UNIT</p>
+        <div class="underline"></div>
+      </div>
+      <!-- 타입안내 section 안에 넣기 -->
+    <div class="tab-wrapper">
+      <button class="tab-button active" data-tab="type-40">45타입</button>
+      <button class="tab-button" data-tab="type-59A">59A타입</button>
+      <button class="tab-button" data-tab="type-59B">59B타입</button>
+      <button class="tab-button" data-tab="interior">인테리어</button>
+    </div>
+
+    <div class="tab-content active" id="type-40">
+      <img src="images/floor/unit_40.png" alt="52㎡ 도면">
+    </div>
+    <div class="tab-content" id="type-59A">
+      <img src="images/floor/unit_59A.png" alt="59㎡A 도면">
+    </div>
+    <div class="tab-content" id="type-59B">
+      <img src="images/floor/unit_59B.png" alt="59㎡B 도면">
+    </div>
+    <div class="tab-content" id="interior">
+      <img src="images/interior_1.jpg" alt="인테리어">
+      <img src="images/interior_2.jpg" alt="인테리어">
+      <img src="images/interior_3.jpg" alt="인테리어">
+      <img src="images/interior_4.jpg" alt="인테리어">
+    </div>
+    </section>
+
+
+  </main>
+  
+
+
+
+
+  <!-- 메인인 -->
+  <section id="main-hero">
+    <div class="hero-text">
+      <div class="hero-text-bar">
+        <p class="sub-text hero-animate">프리미엄의 완벽한 밸런스를 누릴</p>
+        <h2 class="main-title hero-animate">송도역 한신더휴 프레스턴</h2>
+        <p class="info-text hero-animate">지하 2층 - 지상 29층&nbsp;&nbsp;총652세대</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!-- 프리미엄 -->
+  <section class="premium">
+    <img src="/images/imgbox.png" alt="혜택">
+  </section>
+  
+  <!-- 지도 -->
+  <div class="subway-section">
+    <img src="/images/station_image.png" alt="강조 텍스트 이미지">
+  </div>
+  
+
+  <!-- 입장권 페이지 -->
+  <div class="contact-banner">
+    <div class="contact-text">
+      <p class="brand-name contact-animate">송도역 한신더휴</p>
+      <p class="sub-title contact-animate">SPECIAL TOMORROW</p>
+      <p class="phone-number contact-animate">1833-8964</p>
+      <p class="tagline">입장권 빠른발급</p>
+      <p class="desc">전화했다 끊으면 문자로 입장권 전송</p>
+    </div>
+        <form id="reservation" class="visit-form">
+      <div class="form-group">
+        <label>방문예약 <span class="required">*</span></label>
+        <p class="sub-info">날짜와 시간을 입력해주세요.</p>
+        <div class="input-row">
+          <input name="visitdate" id="visit-date" type="text">
+          <input name="visittime" id="visit-time" type="text">
+
+        </div>
+        
+      </div>
+    
+      <div class="form-group">
+        <label>성함 <span class="required">*</span></label>
+        <input name="name" type="text" placeholder="이름을 입력하세요">
+      </div>
+    
+      <div class="form-group">
+        <label>연락처 <span class="required">*</span></label>
+        <p class="sub-info">문자로 입장권이 전송됩니다.</p>
+        <div class="input-row">
+          <input name="phone" type="tel" placeholder="연락처" title="phone" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>개인정보 수집 및 이용 동의 <span class="required">*</span></label>
+        <textarea class="form-control" spellcheck="false">
+- 개인정보 수집ㆍ이용에 대한 안내 -
+
+
+제 1 조 개인정보의 수집 및 이용 목적
+          
+회사가 수집한 개인정보는 다음의 목적을 위해 활용합니다.
+
+1. 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산
+콘텐츠 제공, 물품배송 또는 청구서 등 발송, 본인 인증 및 구매, 요금 결재, 요금추심
+2. 회원 관리
+회원제 서비스 이용에 따른 본인 확인, 개인식별, 가입 의사 확인, 가입 및 가입횟수 제한,
+본 개정 이전에 가입한 14세 미만자의 법정 대리인 본인확인, 추후 법정 대리인 본인확인, 분쟁 조정을 위한 기록보존, 불만처리 등 민원처리, 고지사항 전달
+3. 마케팅 및 광고에 활용
+신규 서비스(제품) 개발 및 특화, 인구통계학적 특성에 따른 서비스 제공 및 광고게재, 접속 빈도 파악, 회원의 서비스 이용에 대한 통계,
+이벤트 등 광고성 정보 전달 (회원의 개인정보는 광고를 의뢰한 개인이나 단체에 제공되지 않습니다.)
+
+
+제 2 조 수집하는 개인정보 항목 및 수집방법
+
+[수집하는 개인정보 항목]
+1. 최초 회원가입 시 회원식별 및 최적화 된 서비스 제공을 위해 아래와 같은 정보를 수집합니다.
+- 필수항목 : 이름/기업명,  이메일주소, 휴대전화번호, 가입인증정보
+2. 개인정보 수정 시 서비스 이용 편의를 위해 회원이 자발적으로 아래와 같은 정보를 제공할 수 있습니다.
+- 주소, 전화번호(서비스 운영상의 필수 정보 확보)
+3. 서비스 이용 과정이나 이벤트 응모 과정, 기타 사업 처리과정에서 아래와 같은 정보가 생성되어 수집될 수 있습니다.
+- 성명, 실명인증값, 아이핀번호(아이핀 인증시), 성별, 생년월일, 직업, 회사명, 주소, 전화번호, 서비스 이용 기록,
+  접속로그, 쿠키, 접속IP 정보, 결제기록, 불량 이용 기록, 이용자 상태정보, 방문일시
+
+[수집방법]
+회사는 다음과 같은 방법으로 개인정보를 수집합니다.
+1. 홈페이지를 통한 회원가입, 게시판, 이벤트 응모
+2. 서비스 사용 중 이용자의 자발적 제공을 통한 수집
+
+
+제 3 조 개인정보의 보유 및 이용기간
+
+  원칙적으로 개인정보 수집 및 이용 목적이 달성된 후에는 해당 정보를 지체없이 파기합니다.
+단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간동안 보존합니다.
+1. 회원탈퇴 시 보존 개인정보
+- 보존항목: 회원이 제공한 이름, 사업자등록번호, 아이디, 이메일주소, 휴대전화번호 등
+- 보존근거: 불량 이용자의 재가입 방지, 명예훼손 등 권리침해 분쟁 및 수사협조
+- 보존기간: 회원탈퇴 후 1년
+2. 상법, 전자상거래등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우
+회사는 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.
+이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+
+- 계약 또는 청약철회 등에 관한 기록
+ ㆍ보존 이유 : 전자상거래 등에서의 소비보호에 관한 법률
+ ㆍ보존 기간 : 3년
+
+- 대금결제 및 재화 등의 공급에 관한 기록
+ ㆍ보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률
+ ㆍ보존 기간 : 3년
+
+- 소비자의 불만 또는 분쟁처리에 관한 기록
+ ㆍ보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률
+ ㆍ보존 기간 : 3년
+
+- 방문에 관한 기록(서비스 이용기록, 접속로그, 접속 IP 정보)
+ ㆍ보존 이유 : 통신비밀보호법
+ ㆍ보존 기간 : 3년
+        </textarea>
+        <label class="checkbox-inline">
+          <input type="checkbox" class="form-contents-privacy-checkbox" name="personalPXBO0" value="personal" style="margin-top:3px;">
+          <span style="margin: 0 25px;">위 사항을 확인하였으며 개인정보 수집 및 이용에 동의합니다.</span>
+        </label>
+      </div>
+
+      <button id="submitBtn" type="submit" style="margin-top: 30px;">확인</button>
+    </form>
+  </div>
+      
+  
+  <footer class="footer-center">
+    <p class="footer-title">고객 센터</p>
+    <p class="footer-sub">CALL CENTER</p>
+    <p class="footer-phone">1833-8964</p>
+    <p class="footer-desc">
+      항상 고객과의 소통을 위해 노력합니다. <br>
+      궁금하신 사항은 언제든지 문의해주셔도 됩니다.<br>
+      항상 고객의 입장에서 생각합니다.
+    </p>
+    <div class="footer-divider"></div>
+  </footer>
+  <!-- 사전접수 고정 버튼 -->
+  <!-- 오른쪽 하단 고정 이미지 버튼 -->
+  <!-- 오른쪽 하단 고정 버튼 -->
+  <a href="javascript:void(0);" class="floating-btn" onclick="goToReservationForm()">
+    <img src="images/GO_logo.png" alt="사전접수 GO 버튼">
+  </a>
+  <script>
+      // 예약 폼 제출
+      const form = document.getElementById('reservation');
+      const submitBtn = document.getElementById('submitBtn');
+      const checkbox = document.querySelector('.form-contents-privacy-checkbox');
+
+      // 체크박스 상태 변경 시 버튼 활성화/비활성화
+      checkbox.addEventListener('change', () => {
+        submitBtn.disabled = !checkbox.checked;
+      });
+
+      // 초기 버튼 상태 설정 (페이지 로드 시)
+      submitBtn.disabled = !checkbox.checked;
+
+      form.addEventListener('submit', async e => {
+        e.preventDefault();
+
+        if (!checkbox.checked) {
+          alert('개인정보 수집 및 이용에 동의해야 합니다.');
+          return;
+        }
+
+        const name  = form.elements.name.value.trim();
+        const phone = form.elements.phone.value.trim();
+        const vd = form.elements['visit-date'].value.trim();
+        const vt = form.elements['visit-time'].value.trim();
+
+        const base = 'https://iudczcnhxfxquxkfckpiwumkai0fvjjb.lambda-url.ap-northeast-2.on.aws/';
+        const url  = `${base}?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&vd=${encodeURIComponent(vd)}&vt=${encodeURIComponent(vt)}&sp=01046798489`;
+
+        try {
+          await fetch(url, { method: 'GET', mode: 'no-cors' });
+          alert(`${name}님, 방문예약이 정상 접수되었습니다!`);
+          form.reset();
+        } catch (err) {
+          console.log(err);
+          alert('접수 중 오류가 발생했습니다. 다시 시도해 주세요.');
+        }
+      });
+</script>
+</body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P594MGJ5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</html>
